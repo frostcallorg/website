@@ -1,0 +1,95 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #8d99ae;
+}
+
+.topbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 25px 10px 25px;
+  width: 100%;
+  z-index: 1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 40px;
+  margin-top: 90px;
+}
+
+.sidenav a {
+  padding: 2px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ffce00;
+}
+
+.main {
+  margin-left: 160px;
+  margin-top: 130px;
+  font-size: 15px;
+  padding: 1px 15% 0px 15px;
+}
+
+.main h1 {
+  font-size: 40px;
+}
+
+.main h2 {
+  font-size: 30px;
+}
+
+.main h3 {
+  font-size: 20px;
+  display: inline;
+}
+
+.contact {
+  /*border: 1px solid black;*/
+  text-align: center;
+  width: 300px;
+  margin: 0px;
+}
+
+.contact h3 {
+  line-height: 1;
+  border-width: 0px;
+}
+
+.contact td {
+  line-height: 1.2;
+  margin-left: 25px;
+}
+
+.contact img {
+	padding-top: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 50px;
+  font-size: 14px;
+  color: #696969;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
